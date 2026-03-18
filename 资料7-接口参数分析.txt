@@ -1,0 +1,50 @@
+https://pp.totima.net/gs2c/playGame.do?
+key=token=AFM8TU85B6MXNG55ANT`|`symbol=vs5aztecgems`|`technology=H5`|`platform=WEB`|`language=zh`|`currency=USD`|`cashierUrl=https://afun.mx/res/gameclose.html?pop=deposit`|`lobbyUrl=https://afun.mx/res/gameclose.html
+&ppkv=2
+&stylename=brllntstr_megaboss
+&country=MXN
+&isGameUrlApiCalled=true
+&userId=AFM205011200MXN
+&developmentId=test001
+
+https://pp.totima.net/gs2c/playGame.do?
+key=token=AFM8TU85B6MXNG55AQ3`|`symbol=vs25goldparty`|`technology=H5`|`platform=WEB`|`language=zh`|`currency=MXN`|`cashierUrl=https://afun.mx/res/gameclose.html?pop=deposit`|`lobbyUrl=https://afun.mx/res/gameclose.html
+&ppkv=2
+&stylename=brllntstr_megaboss
+&country=MX
+&isGameUrlApiCalled=true
+&userId=AFM205011200MXN
+&developmentId=test001
+
+https://pp.totima.net/gs2c/playGame.do?
+key=token=AFM8TU85B6MXNG55NU8`|`symbol=vs10txbigbass`|`technology=H5`|`platform=WEB`|`language=zh`|`currency=MXN`|`cashierUrl=https://afun.mx/res/gameclose.html?pop=deposit`|`lobbyUrl=https://afun.mx/res/gameclose.html
+&ppkv=2
+&stylename=brllntstr_megaboss
+&country=MX
+&isGameUrlApiCalled=true
+&userId=AFM205011200MXN
+&developmentId=test001
+
+https://pp.totima.net/gs2c/playGame.do?
+key=token=AFM8TU85B6MXNG55NU8`|`symbol=vs20starlightx`|`technology=H5`|`platform=WEB`|`language=zh`|`currency=MXN`|`cashierUrl=https://afun.mx/res/gameclose.html?pop=deposit`|`lobbyUrl=https://afun.mx/res/gameclose.html
+&ppkv=2
+&stylename=brllntstr_megaboss
+&country=MX
+&isGameUrlApiCalled=true
+&userId=AFM205011200MXN
+&developmentId=test001
+
+en 英语 默认
+es 西班牙语
+pt 葡萄牙语言
+vi 越南语
+zh 中文
+zt 繁体中文
+ru 俄罗斯语
+tr 土耳其语
+ar 阿拉伯语
+th 泰语
+id 印尼语
+
+
+

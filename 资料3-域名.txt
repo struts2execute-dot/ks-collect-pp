@@ -1,0 +1,7 @@
+https://pp.totima.net/gs2c/html5Game.do?
+extGame=1
+&symbol=vs10luckybnz
+&gname=Sweet%20Burst
+&jurisdictionID=99
+&mgckey=stylename
+@generic~SESSION@1e4e12ed-cc0d-4dcd-873f-89568b0bc830

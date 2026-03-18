@@ -1,0 +1,76 @@
+{
+    "game": [
+        {
+            "version": "3.72.0"
+        }
+    ],
+    "defaultFeaturedGames": [
+        {
+            "value": [
+                "270",
+                "292",
+                "204"
+            ]
+        }
+    ],
+    "slotsAssetVersion": [
+        {
+            "value": ""
+        }
+    ],
+    "lcAssetVersion": [
+        {
+            "value": ""
+        }
+    ],
+    "heroBannerVideo": [
+        {
+            "enabled": true
+        }
+    ],
+    "slotFiltersAsCategories": [
+        {
+            "value": []
+        }
+    ],
+    "newNavigationLayout": [
+        {
+            "enabled": false
+        }
+    ],
+    "newTablesOrder": [
+        {
+            "enabled": true
+        }
+    ],
+    "newSearchLc": [
+        {
+            "enabled": true
+        }
+    ],
+    "newAssetsPath": [
+        {
+            "enabled": true
+        }
+    ],
+    "gameAssetsBaseUrl": [
+        {
+            "value": ""
+        }
+    ],
+    "newComms": [
+        {
+            "enabled": true
+        }
+    ],
+    "suppressDGADependency": [
+        {
+            "enabled": false
+        }
+    ],
+    "usePMS": [
+        {
+            "enabled": false
+        }
+    ]
+}

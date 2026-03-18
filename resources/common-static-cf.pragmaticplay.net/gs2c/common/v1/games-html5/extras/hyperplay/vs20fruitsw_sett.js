@@ -1,0 +1,1 @@
+var mainColorSett = "#461299"; //"#4b015d";

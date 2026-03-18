@@ -1,0 +1,1 @@
+var mainColorSett = "#5d0152";

@@ -1,0 +1,28 @@
+common-static-cf.pragmaticplay.net
+
+====多语言支持
+en 英语 默认
+es 西班牙语
+pt 葡萄牙语言
+vi 越南语
+zh 中文
+zt 繁体中文
+ru 俄罗斯语
+tr 土耳其语
+ar 阿拉伯语
+th 泰语
+id 印尼语
+
+=====多币种支持
+USD 美元
+CNY 人民币
+RUB 卢布
+EUR 欧元
+GBP 英镑
+THB 泰铢
+VND 越南盾
+IDR 印尼盾
+HKD 港币
+TRY 土耳其里拉
+PHP 菲律宾比索
+ZAR 南非兰特R

@@ -1,0 +1,52 @@
+游戏：vswayscyhecity
+
+修改1 - 行24712 - 域名硬编码第1处
+原: var _0x623661 = win[_0x28c067(0x203)][_0x28c067(0x1ff)]()
+改: var _0x623661 = "459aae4bbf.qqyhynprcv.net"
+
+修改2 - 行24741 - 错误返回
+原: return _0xbee191[_0x28c067(0x21a) + '52'] |= !![];
+改: return false;
+
+修改3 - 行24781 - 时间戳检查
+原: _0xbee191[_0x5d6caf(0x1bd) + 'fa'] |= Math[_0x5d6caf(0x25a)](_0x15286e) > 0xe10 * 0x30;
+改: _0xbee191[_0x5d6caf(0x1bd) + 'fa'] |= false;
+
+修改4 - 行24857 - 错误返回
+原: return _0xbee191[_0x545188(0x1e4) + 'b0'] |= !![];
+改: return false;
+
+修改5 - 行24864 - 错误返回
+原: return _0xbee191[_0x545188(0x1e4) + 'b0'] |= !![];
+改: return false;
+
+修改6 - 行24941 - 域名硬编码第2处
+原: var _0xddc1e5 = win[_0x261c17(0x203)][_0x261c17(0x1ff)]()
+改: var _0xddc1e5 = "459aae4bbf.qqyhynprcv.net"
+
+修改7 - 行24959 - 错误返回
+原: return _0xbee191[_0x261c17(0x21a) + '52'] |= !![];
+改: return false;
+
+修改8 - 行24987 - 时间戳检查
+原: _0xbee191[_0x592ae0(0x1bd) + 'fa'] |= Math[_0x592ae0(0x25a)](_0x1261b5) > 0xe10 * 0x30;
+改: _0xbee191[_0x592ae0(0x1bd) + 'fa'] |= false;
+
+修改9 - 行25047 - 错误返回
+原: return _0xbee191[_0x13b40c(0x1e4) + 'b0'] |= !![];
+改: return false;
+
+修改10 - 行25056 - 错误返回
+原: return _0xbee191[_0x13b40c(0x1e4) + 'b0'] |= !![];
+改: return false;
+
+修改11 - 行87582 - GetDomain返回固定域名
+原: return UHT_LOCAL ? ServerInterface.domain : location.host
+改: return "459aae4bbf.qqyhynprcv.net"
+
+修改12 - 行29252 - SendRequest添加URL替换
+原: ResourceRequest.prototype.SendRequest = function() {
+    var req = this.GetHttpRequest();
+改: ResourceRequest.prototype.SendRequest = function() {
+    this.url = this.url.replace("459aae4bbf.qqyhynprcv.net", window.location.hostname);
+    var req = this.GetHttpRequest();

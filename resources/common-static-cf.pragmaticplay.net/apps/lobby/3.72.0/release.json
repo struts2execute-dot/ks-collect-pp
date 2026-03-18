@@ -1,0 +1,10 @@
+{
+  "coreVersion": "26.1.8",
+  "localCore": false,
+  "gameVersion": "3.72.0",
+  "gameName": "@pp/lobby",
+  "gameType": "lobby",
+  "buildNumber": "622140-lobby-staging",
+  "deployTarget": "local",
+  "version": "3.72.0 (26.1.8) 622140-lobby-staging"
+}

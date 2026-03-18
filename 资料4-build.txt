@@ -1,0 +1,46 @@
+=======================破解详情==========================
+域名硬编码（2处）：
+第 24654 行
+原：var _0x5523da = win[_0x4bd7bc(0x18d)][_0x4bd7bc(0x1cb)]()
+改：var _0x5523da = "459aae4bbf.qqyhynprcv.net"
+第 24857 行
+原：var _0x4a2846 = win[_0x361573(0x18d)][_0x361573(0x1cb)]()
+改：var _0x4a2846 = "459aae4bbf.qqyhynprcv.net"
+
+错误返回修改（6处）：
+第 24684 行
+原：return _0x0d90c9[_0x4bd7bc(0x19c) + '71'] |= !![];
+改：return false;
+第 24763 行
+原：return _0x0d90c9[_0x2b2616(0x1cd) + '96'] |= !![];
+改：return false;
+第 24776 行
+原：return _0x0d90c9[_0x2b2616(0x1cd) + '96'] |= !![];
+改：return false;
+第 24876 行
+原：return _0x0d90c9[_0x361573(0x19c) + '71'] |= !![];
+改：return false;
+第 24971 行
+原：return _0x0d90c9[_0x29f8d0(0x1cd) + '96'] |= !![];
+改：return false;
+第 24978 行
+原：return _0x0d90c9[_0x29f8d0(0x1cd) + '96'] |= !![];
+改：return false;
+
+时间戳返回修改（2处）：
+第 24978 行
+原：_0x0d90c9[_0x3986d3(0x1b1) + 'ea'] |= Math[_0x3986d3(0x152)](_0x1447ef) > 0xe10 * 0x30;
+改：_0x0d90c9[_0x3986d3(0x1b1) + 'ea'] = false;
+第 24978 行
+原：_0x0d90c9[_0x2e6e7f(0x1b1) + 'ea'] |= Math[_0x2e6e7f(0x152)](_0x25f7e1) > 0xe10 * 0x30;
+改：_0x0d90c9[_0x2e6e7f(0x1b1) + 'ea'] = false;
+
+
+
+=====================修改后端请求地址=============
+ServerInterface.GetDomain = function() {
+    return "459aae4bbf.qqyhynprcv.net"
+}
+
+ResourceRequest.prototype.SendRequest函数，第一行修改url：
+this.url = this.url.replace("459aae4bbf.qqyhynprcv.net", window.location.hostname);

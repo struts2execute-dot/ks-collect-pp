@@ -1,0 +1,49 @@
+文档：https://mitmproxy.org/
+
+一、基础篇
+1、安装mitmproxy
+brew install mitmproxy
+
+2、安装完成验证
+命令：mitmdump --version
+
+3、启动mitmdump
+命令：mitmdump
+
+4、配置网络代理
+google浏览器 --> "设置" --> "系统" --> "打开您计算机的代理设置"
+
+5、ssl安全校验解决办法
+--mitmdump启动以后，会自动生成证书文件，通常在根目录，直接通过命令找到文件夹（查看是否生成）：
+  cd ~/.mitmproxy/
+--通过命令导入将系统导入到mac中：
+  sudo security add-trusted-cert -d -p ssl -p basic -k /Library/Keychains/System.keychain ~/.mitmproxy/mitmproxy-ca-cert.pem
+--重新启动（启动以后页面就可以正常访问了）
+  mitmdump
+
+6、至此可以在"终端"中看到正常的拦截信息
+
+二、mitmweb
+1、关闭mitmdump窗口，终止原来程序
+2、命令：mitmweb
+  --会监听8080端口
+  --会启动8081端口作为web服务
+3、浏览器访问：http://127.0.0.1:8081/#/flows
+4、进行请求拦截和修改操作
+
+三、配合拦击器启动
+mitmdump -k -q -s InterceptResource.py
+
+四、nginx配置hosts
+sudo vi /etc/hosts
+
+五、版本安装，同时安装mysql
+pip install mitmproxy aiomysql
+
+六、出现异常，进行降级
+pip install markupsafe==2.0.1
+
+七、资源采集注意事项
+  --7-1 清理浏览器缓存
+  --7-2 勾选 Bypass for network
+    --f12 --》application --》勾选Bypass for network

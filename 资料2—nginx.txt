@@ -1,0 +1,20 @@
+一 安装
+    brew安装，环境变量里面可以找到nginx指令即可
+
+二 启动
+    第一 先进入项目根目录
+        cd /Users/it_nq_hd021/workspace-go-game/pp/game-pp-collect
+
+    第二 命令
+    权限问题，brew方式启动，无法访问到本项目下的静态资源，所以改用以下方式启动nginx
+    ==验证语法
+        nginx -t -p "$(pwd)/nginx" -c conf/nginx.conf
+    ==启动
+        nginx -p "$(pwd)/nginx" -c conf/nginx.conf
+    ==停止
+        nginx -p "$(pwd)/nginx" -s stop 2>/dev/null || true
+    ==重启
+        nginx -p "$(pwd)/nginx" -s reload
+    ==状态检测
+        ps aux | grep nginx
+
